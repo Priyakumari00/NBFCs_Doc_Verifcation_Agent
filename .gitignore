@@ -1,0 +1,23 @@
+# Secrets and local configuration
+.env
+.env.*
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Uploaded documents and generated artifacts
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
